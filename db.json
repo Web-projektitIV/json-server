@@ -1,0 +1,2022 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "content": "HTML is easy"
+    },
+    {
+      "id": "2",
+      "content": "Browser can execute only JavaScript"
+    },
+    {
+      "id": "3",
+      "content": "GET and POST are the most important methods of HTTP protocol"
+    },
+    {
+      "id": "4",
+      "content": "Kirjoita HTML semanttisesti: oikea elementti kertoo sisällön tarkoituksen."
+    },
+    {
+      "id": "5",
+      "content": "Käytä otsikkotasoja järjestyksessä, älä valitse niitä ulkoasun perusteella."
+    },
+    {
+      "id": "6",
+      "content": "Anna lomakekentille näkyvät label-elementit, älä luota pelkkään placeholderiin."
+    },
+    {
+      "id": "7",
+      "content": "Kuvien alt-teksti välittää kuvan olennaisen merkityksen, ei sen tiedostonimeä."
+    },
+    {
+      "id": "8",
+      "content": "Koristekuva kuuluu tyhjällä alt-attribuutilla pois ruudunlukijan lukujärjestyksestä."
+    },
+    {
+      "id": "9",
+      "content": "Painike tekee toiminnon; linkki vie paikkaan."
+    },
+    {
+      "id": "10",
+      "content": "Määritä dokumentille kieli lang-attribuutilla."
+    },
+    {
+      "id": "11",
+      "content": "Pidä DOM-rakenne yksinkertaisena: jokainen tarpeeton kääre kasvattaa monimutkaisuutta."
+    },
+    {
+      "id": "12",
+      "content": "Käytä button-elementtiä painikkeena myös silloin, kun tyylittelet sen täysin uudelleen."
+    },
+    {
+      "id": "13",
+      "content": "Luo otsikolle ja pääsisällölle selkeä, johdonmukainen rakenne."
+    },
+    {
+      "id": "14",
+      "content": "Taulukot ovat datalle, eivät sivun asettelulle."
+    },
+    {
+      "id": "15",
+      "content": "Valitse input-kentän type käyttäjän syötteen mukaan, jotta selain voi auttaa."
+    },
+    {
+      "id": "16",
+      "content": "Lomake toimii paremmin, kun virhe kerrotaan tekstinä eikä vain värillä."
+    },
+    {
+      "id": "17",
+      "content": "Tee tärkeät toiminnot käytettäviksi myös näppäimistöllä."
+    },
+    {
+      "id": "18",
+      "content": "Älä poista selaimen fokusmerkkiä ilman saavutettavaa korvaavaa tyyliä."
+    },
+    {
+      "id": "19",
+      "content": "Luettava HTML on sekä ihmisille että apuvälineille parempi lähtökohta."
+    },
+    {
+      "id": "20",
+      "content": "Merkitse nykyinen sivu navigaatiossa aria-current-attribuutilla."
+    },
+    {
+      "id": "21",
+      "content": "CSS:n peruskieli on asettelu; lisää JavaScriptiä vasta, kun käyttäytymistä tarvitaan."
+    },
+    {
+      "id": "22",
+      "content": "Rakenna ensin toimiva mobiilinäkymä ja laajenna sitä suuremmille näytöille."
+    },
+    {
+      "id": "23",
+      "content": "Grid sopii kaksiulotteiseen asetteluun, Flexbox yhden ulottuvuuden järjestämiseen."
+    },
+    {
+      "id": "24",
+      "content": "Käytä suhteellisia yksiköitä, kun sisällön pitää joustaa käyttäjän asetusten mukana."
+    },
+    {
+      "id": "25",
+      "content": "Vältä kiinteitä korkeuksia tekstialueilla, jotta sisältö mahtuu eri kielillä."
+    },
+    {
+      "id": "26",
+      "content": "CSS-muuttujat pitävät toistuvat värit ja mitat yhdenmukaisina."
+    },
+    {
+      "id": "27",
+      "content": "Nimeä luokat tarkoituksen mukaan, älä niiden tämänhetkisen värin mukaan."
+    },
+    {
+      "id": "28",
+      "content": "Vältä ylisuurta CSS-spesifisyyttä: helppo yliajettavuus säästää aikaa myöhemmin."
+    },
+    {
+      "id": "29",
+      "content": "Responsiivinen suunnittelu tarkoittaa muutakin kuin muutamaa media queryä."
+    },
+    {
+      "id": "30",
+      "content": "Testaa asettelu oikealla sisällöllä, ei vain lyhyillä esimerkkiteksteillä."
+    },
+    {
+      "id": "31",
+      "content": "Käytä minmax- ja auto-fit-arvoja, kun ruudukon sarakkeiden pitää mukautua sisältöön."
+    },
+    {
+      "id": "32",
+      "content": "Vältä tekstin tasaamista pelkällä tyhjällä välilyönnillä; anna asettelun hoitaa se."
+    },
+    {
+      "id": "33",
+      "content": "Varmista riittävä kontrasti myös hover-, focus- ja disabled-tiloissa."
+    },
+    {
+      "id": "34",
+      "content": "Älä viesti tilaa ainoastaan värillä; lisää myös tekstiä tai tunnistettava muoto."
+    },
+    {
+      "id": "35",
+      "content": "Suosi CSS:n transform- ja opacity-animaatioita, kun suorituskyky on tärkeää."
+    },
+    {
+      "id": "36",
+      "content": "Kunnioita prefers-reduced-motion-asetusta animaatioissa."
+    },
+    {
+      "id": "37",
+      "content": "Pitkä rivi on vaikeampi lukea kuin sopivan mittainen tekstipalsta."
+    },
+    {
+      "id": "38",
+      "content": "Käytä z-index-arvoja suunnitelmallisesti ja hallitse pinoamiskontekstit."
+    },
+    {
+      "id": "39",
+      "content": "Sisältöä leikkaava overflow voi piilottaa myös fokuksen ja virheilmoitukset."
+    },
+    {
+      "id": "40",
+      "content": "Älä käytä !important-arvoa korjaamaan huonosti hallittua CSS-rakennetta."
+    },
+    {
+      "id": "41",
+      "content": "JavaScriptin muuttujan nimi on osa koodin dokumentaatiota."
+    },
+    {
+      "id": "42",
+      "content": "Suosi const-määrittelyä ja käytä let-muuttujaa vain, kun arvo vaihtuu."
+    },
+    {
+      "id": "43",
+      "content": "Pidä funktiot pieninä ja anna niille yksi selkeä vastuu."
+    },
+    {
+      "id": "44",
+      "content": "Käsittele asynkroniset virheet siellä, missä voit niihin järkevästi reagoida."
+    },
+    {
+      "id": "45",
+      "content": "Promise.all nopeuttaa rinnakkaisia riippumattomia pyyntöjä, mutta hylkää kokonaisuuden virheessä."
+    },
+    {
+      "id": "46",
+      "content": "Käytä Promise.allSettled-menetelmää, kun jokaisen rinnakkaisen tuloksen tila kiinnostaa erikseen."
+    },
+    {
+      "id": "47",
+      "content": "Älä jätä hylättyä Promisea käsittelemättä."
+    },
+    {
+      "id": "48",
+      "content": "Vertaa arvoja tarkoituksella: === välttää JavaScriptin implisiittiset tyyppimuunnokset."
+    },
+    {
+      "id": "49",
+      "content": "Käytä taulukkometodeja, joiden nimet paljastavat muunnoksen tarkoituksen."
+    },
+    {
+      "id": "50",
+      "content": "Älä muuta jaettua oliota yllättäen; hallittu datavirta helpottaa virheiden jäljittämistä."
+    },
+    {
+      "id": "51",
+      "content": "Vältä globaalin tilan kasvattamista, sillä piiloriippuvuudet vaikeuttavat testaamista."
+    },
+    {
+      "id": "52",
+      "content": "Käytä tapahtumakuuntelijassa samaa funktioviitettä, kun aiot poistaa kuuntelijan myöhemmin."
+    },
+    {
+      "id": "53",
+      "content": "Debounce sopii hakusyötteen kaltaisiin tapahtumiin, joiden lopputulos kiinnostaa vasta tauon jälkeen."
+    },
+    {
+      "id": "54",
+      "content": "Throttle rajoittaa tapahtumakäsittelijän suoritusväliä jatkuvan tapahtumavirran aikana."
+    },
+    {
+      "id": "55",
+      "content": "Peruuta vanhentunut verkkopyyntö, jos sen tulosta ei enää tarvita."
+    },
+    {
+      "id": "56",
+      "content": "Tallenna johdettu arvo laskennan tuloksena vain, jos siihen on todellinen tarve."
+    },
+    {
+      "id": "57",
+      "content": "Vältä DOM-päivityksiä silmukassa, jos muutokset voi tehdä yhtenä koottuna operaationa."
+    },
+    {
+      "id": "58",
+      "content": "Lisää tapahtumakuuntelija mahdollisimman rajattuun kohteeseen."
+    },
+    {
+      "id": "59",
+      "content": "Tarkista selaimen API:n tuki tai tarjoa hallittu varavaihtoehto."
+    },
+    {
+      "id": "60",
+      "content": "Käytä Strict Modea ja linteriä virheiden löytämiseen ennen kuin ne ehtivät selaimeen."
+    },
+    {
+      "id": "61",
+      "content": "Sivun suorituskyky alkaa siitä, ettei käyttäjälle lähetetä tarpeetonta koodia."
+    },
+    {
+      "id": "62",
+      "content": "Lataa sivun ensimmäisen näkymän kannalta epäolennainen JavaScript myöhemmin."
+    },
+    {
+      "id": "63",
+      "content": "Jaa suuri JavaScript-paketti reiteittäin tai toiminnallisuuksittain."
+    },
+    {
+      "id": "64",
+      "content": "Optimoi kuvat ennen niiden lataamista; kuvat ovat usein sivun painavin sisältö."
+    },
+    {
+      "id": "65",
+      "content": "Määritä kuvalle leveys ja korkeus, jotta sivun asettelu ei hypähdä latauksessa."
+    },
+    {
+      "id": "66",
+      "content": "Käytä srcset- ja sizes-attribuutteja eri näyttöihin sopivien kuvien tarjoamiseen."
+    },
+    {
+      "id": "67",
+      "content": "Lataa ruudun ulkopuoliset kuvat laiskasti, mutta älä viivytä tärkeintä pääkuvaa."
+    },
+    {
+      "id": "68",
+      "content": "Valitse oikea kuvamuoto laadun, koon ja selaintuen perusteella."
+    },
+    {
+      "id": "69",
+      "content": "Mittaa pullonkaula ennen suorituskykyoptimointia."
+    },
+    {
+      "id": "70",
+      "content": "Core Web Vitals -mittarit kuvaavat käyttäjän kokemusta, eivät vain koodin kokoa."
+    },
+    {
+      "id": "71",
+      "content": "Varaa mainoksille ja upotetulle sisällölle tila ennen niiden latautumista."
+    },
+    {
+      "id": "72",
+      "content": "Minimoi renderöinnin estävät resurssit, mutta älä heikennä ylläpidettävyyttä sokkona."
+    },
+    {
+      "id": "73",
+      "content": "Käytä fonttien preload-latausta vain kriittisille fonteille."
+    },
+    {
+      "id": "74",
+      "content": "Välimuisti nopeuttaa käyttöä, mutta vanhentumiskäytäntö on suunniteltava samalla."
+    },
+    {
+      "id": "75",
+      "content": "Staattinen sisältö voidaan usein tarjoilla CDN:n kautta lähempänä käyttäjää."
+    },
+    {
+      "id": "76",
+      "content": "Vähennä kriittisen polun pyyntöjä, jotta ensimmäinen näkymä valmistuu nopeammin."
+    },
+    {
+      "id": "77",
+      "content": "Pitkät tehtävät pääsäikeessä tekevät käyttöliittymästä nykivän."
+    },
+    {
+      "id": "78",
+      "content": "Web Worker voi siirtää raskasta laskentaa pois käyttöliittymän pääsäikeestä."
+    },
+    {
+      "id": "79",
+      "content": "Mittaa myös hitaalla yhteydellä ja vaatimattomalla laitteella."
+    },
+    {
+      "id": "80",
+      "content": "Nopeuden kokemus paranee, kun käyttöliittymä kertoo viiveestä ja näyttää etenemisen."
+    },
+    {
+      "id": "81",
+      "content": "HTTPS suojaa tiedonsiirron salakuuntelulta ja muutoksilta."
+    },
+    {
+      "id": "82",
+      "content": "Älä koskaan luota selaimesta saapuvaan dataan ilman palvelimen validointia."
+    },
+    {
+      "id": "83",
+      "content": "Tulkitse käyttäjän syöte datana, älä suoritettavana HTML:nä tai JavaScriptinä."
+    },
+    {
+      "id": "84",
+      "content": "Kontekstisidonnainen tulosteen koodaus auttaa ehkäisemään XSS-haavoittuvuuksia."
+    },
+    {
+      "id": "85",
+      "content": "Älä rakenna SQL-kyselyä liittämällä siihen käsittelemätöntä käyttäjän syötettä."
+    },
+    {
+      "id": "86",
+      "content": "Säilytä salaisuudet palvelinympäristössä, älä selaimelle lähetettävässä paketissa."
+    },
+    {
+      "id": "87",
+      "content": "API-avaimen piilottaminen frontendin muuttujanimeen ei tee siitä salaista."
+    },
+    {
+      "id": "88",
+      "content": "Käytä CSRF-suojausta, kun selain lähettää evästeisiin perustuvia tunnistetietoja."
+    },
+    {
+      "id": "89",
+      "content": "Aseta evästeille tarkoituksenmukaiset Secure-, HttpOnly- ja SameSite-määritykset."
+    },
+    {
+      "id": "90",
+      "content": "Content Security Policy voi rajata, mistä sivu saa ladata suoritettavaa sisältöä."
+    },
+    {
+      "id": "91",
+      "content": "Tarkista tiedostolatauksen sisältö ja koko palvelimella, älä vain tiedostopäätettä."
+    },
+    {
+      "id": "92",
+      "content": "Käytä käyttöoikeustarkistusta jokaisessa palvelinpäässä suojatussa toiminnossa."
+    },
+    {
+      "id": "93",
+      "content": "Tunnistautuminen kertoo kuka olet; valtuutus kertoo mitä saat tehdä."
+    },
+    {
+      "id": "94",
+      "content": "Rajaa CORS-säännöt tunnettuihin alkuperiin tuotannossa."
+    },
+    {
+      "id": "95",
+      "content": "Virheilmoitus ei saa paljastaa salasanoja, tokeneita tai sisäisiä pinojälkiä."
+    },
+    {
+      "id": "96",
+      "content": "Päivitä riippuvuudet hallitusti ja seuraa niiden tietoturvatiedotteita."
+    },
+    {
+      "id": "97",
+      "content": "Minimoi oikeudet: jokainen palvelu ja tunniste tarvitsee vain välttämättömän pääsyn."
+    },
+    {
+      "id": "98",
+      "content": "Rate limiting suojaa rajapintaa väärinkäytöltä ja ylikuormitukselta."
+    },
+    {
+      "id": "99",
+      "content": "Älä säilytä arkaluonteista käyttäjädataa pidempään kuin käyttötarkoitus vaatii."
+    },
+    {
+      "id": "100",
+      "content": "Lokita turvallisuustapahtumat, mutta jätä salaisuudet ja tarpeeton henkilötieto pois."
+    },
+    {
+      "id": "101",
+      "content": "API vastaa selkeästi virhetilanteissa sopivalla HTTP-tilakoodilla."
+    },
+    {
+      "id": "102",
+      "content": "GET-pyynnön ei pidä muuttaa palvelimen tilaa."
+    },
+    {
+      "id": "103",
+      "content": "PUT korvaa resurssin, PATCH muuttaa sitä osittain."
+    },
+    {
+      "id": "104",
+      "content": "Suunnittele rajapinnan vastaus niin, että tyhjä lista on eri asia kuin virhe."
+    },
+    {
+      "id": "105",
+      "content": "Käytä sivutusta suurissa kokoelmissa sen sijaan, että palautat kaiken kerralla."
+    },
+    {
+      "id": "106",
+      "content": "Määritä API:n kentille ja virhevastauksille johdonmukainen sopimus."
+    },
+    {
+      "id": "107",
+      "content": "Versioi rajapinta, kun yhteensopimaton muutos on väistämätön."
+    },
+    {
+      "id": "108",
+      "content": "Tee uudelleen yritettävästä kirjoituspyynnöstä idempotentti, jos mahdollista."
+    },
+    {
+      "id": "109",
+      "content": "Aseta pyynnöille aikakatkaisu, jotta odotus ei jää loputtomaksi."
+    },
+    {
+      "id": "110",
+      "content": "Uudelleenyrityksissä käytä viivettä ja ylärajaa, älä hakkaa palvelinta jatkuvasti."
+    },
+    {
+      "id": "111",
+      "content": "Käytä ETag- tai muuta välimuistivalidointia, kun resurssia ei tarvitse ladata aina uudelleen."
+    },
+    {
+      "id": "112",
+      "content": "Älä lähetä asiakkaalle tietokannan sisäisiä yksityiskohtia API-vastauksessa."
+    },
+    {
+      "id": "113",
+      "content": "Pidä tietokantatransaktio lyhyenä, jotta lukot eivät jää turhaan voimaan."
+    },
+    {
+      "id": "114",
+      "content": "Indeksoi tietokannan kyselypolut vasta, kun tiedät mitä todella haetaan."
+    },
+    {
+      "id": "115",
+      "content": "Määritä tietokannan sarakkeille rajoitteet, jotka suojaavat datan eheyttä."
+    },
+    {
+      "id": "116",
+      "content": "Aikaleimat kannattaa tallentaa yhtenäisessä muodossa ja näyttää käyttäjän aikavyöhykkeessä."
+    },
+    {
+      "id": "117",
+      "content": "Käsittele aikavyöhykkeet eksplisiittisesti; paikallinen kellonaika ei ole yksiselitteinen kaikkina päivinä."
+    },
+    {
+      "id": "118",
+      "content": "Säilytä rahasummat tarkassa desimaalimuodossa, älä binääriliukulukuna."
+    },
+    {
+      "id": "119",
+      "content": "Tietokannan migraatio tarvitsee suunnitelman sekä sovelluskoodille että palautukselle."
+    },
+    {
+      "id": "120",
+      "content": "Yhteysvaranto vähentää tarpeetonta tietokantayhteyksien avaamista."
+    },
+    {
+      "id": "121",
+      "content": "Testaa liiketoimintasääntöjä yksikkötesteillä ja rajapinnan sopimusta integraatiotesteillä."
+    },
+    {
+      "id": "122",
+      "content": "Testin nimen pitäisi kuvata odotettua käyttäytymistä, ei toteutuksen yksityiskohtaa."
+    },
+    {
+      "id": "123",
+      "content": "Hyvä testi epäonnistuu, kun käyttäjälle näkyvä toiminta rikkoutuu."
+    },
+    {
+      "id": "124",
+      "content": "Testaa myös tyhjät arvot, rajatapaukset ja virheelliset syötteet."
+    },
+    {
+      "id": "125",
+      "content": "Vältä testien keskinäisiä riippuvuuksia; jokaisen testin pitää voida toimia erikseen."
+    },
+    {
+      "id": "126",
+      "content": "Mockaa ulkoinen palvelu, mutta älä mockaa koko sovelluksen omaa käyttäytymistä pois."
+    },
+    {
+      "id": "127",
+      "content": "Käyttöliittymätestissä suosi käyttäjän havaittavia rooleja ja nimiä CSS-luokkien sijaan."
+    },
+    {
+      "id": "128",
+      "content": "Visuaalinen regressiotesti löytää asettelumuutoksia, joita logiikkatesti ei huomaa."
+    },
+    {
+      "id": "129",
+      "content": "Tee testidatasta determinististä, jotta satunnaiset virheet eivät peitä todellisia ongelmia."
+    },
+    {
+      "id": "130",
+      "content": "Pidä testit nopeina, jotta tiimi haluaa ajaa ne usein."
+    },
+    {
+      "id": "131",
+      "content": "Automatisoi saavutettavuuden perustarkistukset, mutta arvioi käytettävyys myös käsin."
+    },
+    {
+      "id": "132",
+      "content": "Testaa lomakkeen onnistumisen lisäksi virhe- ja lataustilat."
+    },
+    {
+      "id": "133",
+      "content": "Tarkista, että uudelleenyritys ei tee samaa kirjoitusta kahteen kertaan."
+    },
+    {
+      "id": "134",
+      "content": "Lataa ja testaa kriittinen käyttäjäpolku oikeassa selaimessa."
+    },
+    {
+      "id": "135",
+      "content": "Varmista, että testit siivoavat luomansa datan ja resurssit."
+    },
+    {
+      "id": "136",
+      "content": "Koodikattavuus kertoo suoritetuista riveistä, ei siitä ymmärsikö testi vaatimuksen."
+    },
+    {
+      "id": "137",
+      "content": "Tee virheestä toistettava pienentämällä ensin sen tapahtumiseen tarvittavia vaiheita."
+    },
+    {
+      "id": "138",
+      "content": "Käytä selaimen kehittäjätyökaluja verkon, suorituskyvyn ja saavutettavuuden tutkimiseen."
+    },
+    {
+      "id": "139",
+      "content": "Lue konsolin ensimmäinen virhe huolellisesti: myöhemmät virheet voivat olla vain seurauksia."
+    },
+    {
+      "id": "140",
+      "content": "Pidä paikallisen, testi- ja tuotantoympäristön erot näkyvinä ja hallittuina."
+    },
+    {
+      "id": "141",
+      "content": "Käytä Gitissä pieniä, tarkoitukseltaan selkeitä committeja."
+    },
+    {
+      "id": "142",
+      "content": "Commit-viesti kertoo muutoksen syyn, ei vain luettele muokattuja tiedostoja."
+    },
+    {
+      "id": "143",
+      "content": "Tarkista diff ennen commitia, sillä se on viimeinen helppo hetki huomata sivuvaikutus."
+    },
+    {
+      "id": "144",
+      "content": "Älä tallenna build-tuloksia versionhallintaan, ellei projekti niitä nimenomaisesti vaadi."
+    },
+    {
+      "id": "145",
+      "content": "Lukitustiedosto tekee riippuvuuksien asennuksesta toistettavamman."
+    },
+    {
+      "id": "146",
+      "content": "Käytä ympäristömuuttujia ympäristökohtaiseen asetukseen ja dokumentoi vaaditut avaimet."
+    },
+    {
+      "id": "147",
+      "content": "Älä ohita lintterin tai tyypintarkistimen varoituksia ilman ymmärrettyä syytä."
+    },
+    {
+      "id": "148",
+      "content": "Vakiinnuta koodin muotoilu automaatiolla, jotta katselmointi keskittyy sisältöön."
+    },
+    {
+      "id": "149",
+      "content": "Poista kuollut koodi sen sijaan, että jätät sen kommentoituna talteen."
+    },
+    {
+      "id": "150",
+      "content": "Dokumentoi julkisen rajapinnan oletukset siellä, missä käyttäjä niitä tarvitsee."
+    },
+    {
+      "id": "151",
+      "content": "Muuta yksi asia kerrallaan, jotta vaikutus on helpompi arvioida."
+    },
+    {
+      "id": "152",
+      "content": "Hyvä abstraktio poistaa toistoa tai tekee käsitteestä selkeämmän; muuten se on vain ylimääräinen kerros."
+    },
+    {
+      "id": "153",
+      "content": "Käytä TypeScriptissä tarkkoja tyyppejä, jotta mahdottomat tilat on vaikeampi esittää."
+    },
+    {
+      "id": "154",
+      "content": "Vältä any-tyyppiä, jos tuntemattoman tyypin voi rajata turvallisesti unknown-tyypistä."
+    },
+    {
+      "id": "155",
+      "content": "Rajaa ulkoa tuleva data ajonaikaisesti, sillä tyyppitarkistus ei validoi verkkovastausta."
+    },
+    {
+      "id": "156",
+      "content": "Pidä moduulien riippuvuudet yksisuuntaisina, jotta kokonaisuutta on helpompi muuttaa."
+    },
+    {
+      "id": "157",
+      "content": "Erota käyttöliittymän esitystila palvelimelta haetusta datasta, kun se selkeyttää toimintaa."
+    },
+    {
+      "id": "158",
+      "content": "Nosta tila lähimpään yhteiseen omistajaan, joka tarvitsee sitä."
+    },
+    {
+      "id": "159",
+      "content": "Älä johda käyttöliittymän tilaa DOM:sta, jos sovellus voi omistaa saman tiedon itse."
+    },
+    {
+      "id": "160",
+      "content": "Pidä käyttöliittymän tila mahdollisimman pienenä ja johdettavana."
+    },
+    {
+      "id": "161",
+      "content": "Palvelutyökalujen lokit tarvitsevat pyyntötunnisteen, jotta yhden pyynnön tapahtumat löytyvät."
+    },
+    {
+      "id": "162",
+      "content": "Seuraa virheiden määrää ja viivettä, älä pelkkää palvelimen käynnissäoloa."
+    },
+    {
+      "id": "163",
+      "content": "Hälytys on hyödyllinen, kun se kertoo toiminnasta, johon joku voi reagoida."
+    },
+    {
+      "id": "164",
+      "content": "Terveyden tarkistus kertoo, voiko palvelu ottaa liikennettä vastaan, ei vain käynnistynytkö prosessi."
+    },
+    {
+      "id": "165",
+      "content": "Käsittele alasajo hallitusti, jotta keskeneräiset pyynnöt ehtivät valmistua."
+    },
+    {
+      "id": "166",
+      "content": "Varaa varmuuskopioille palautusharjoitus; varmuuskopio ei ole hyödyllinen, jos sitä ei voi palauttaa."
+    },
+    {
+      "id": "167",
+      "content": "Suunnittele julkaisu niin, että uusi koodi ja vanha data toimivat siirtymän aikana yhdessä."
+    },
+    {
+      "id": "168",
+      "content": "Feature flag mahdollistaa ominaisuuden asteittaisen käyttöönoton, mutta vanhat liput pitää poistaa."
+    },
+    {
+      "id": "169",
+      "content": "Pidä tuotantoon julkaisu toistettavana automaationa, älä käsin muistettavana rituaalina."
+    },
+    {
+      "id": "170",
+      "content": "Varmista lähdekarttojen pääsyrajoitukset, jos ne voivat paljastaa tuotantokoodin yksityiskohtia."
+    },
+    {
+      "id": "171",
+      "content": "Näytä lataustila heti, kun käyttäjä käynnistää odotusta aiheuttavan toiminnon."
+    },
+    {
+      "id": "172",
+      "content": "Estä tuplalähetys käyttöliittymässä ja varmista palvelimella toiminnon turvallinen käsittely."
+    },
+    {
+      "id": "173",
+      "content": "Vahvistusdialogi kuuluu peruuttamattomaan tai merkittävän seurauksen toimintaan."
+    },
+    {
+      "id": "174",
+      "content": "Älä pyydä vahvistusta jokaiselle vähäriskiselle toiminnolle; liika varmistelu väsyttää."
+    },
+    {
+      "id": "175",
+      "content": "Säilytä käyttäjän lomakesyöte validointivirheen jälkeen."
+    },
+    {
+      "id": "176",
+      "content": "Kerro virheessä mitä tapahtui ja mikä on käyttäjän seuraava mahdollinen askel."
+    },
+    {
+      "id": "177",
+      "content": "Tyhjän tilan pitäisi kertoa, miksi sisältöä ei näy ja miten sitä voi saada."
+    },
+    {
+      "id": "178",
+      "content": "Optimistinen päivitys tuntuu nopealta, mutta sillä pitää olla palautuspolku epäonnistumiselle."
+    },
+    {
+      "id": "179",
+      "content": "Varmista, että modaali palauttaa fokuksen avaavaan elementtiin sulkeuduttuaan."
+    },
+    {
+      "id": "180",
+      "content": "Dialogin avautuessa fokus siirtyy sisään ja näppäimistö pysyy sen sisällä."
+    },
+    {
+      "id": "181",
+      "content": "Käytä selaimen natiiveja ominaisuuksia, kun ne ratkaisevat tarpeen yksinkertaisesti."
+    },
+    {
+      "id": "182",
+      "content": "Progressive enhancement pitää perustoiminnon saatavilla, vaikka lisäominaisuus ei latautuisi."
+    },
+    {
+      "id": "183",
+      "content": "Tarkista sovelluksen toiminta ilman JavaScriptiä, jos sisältö on tarkoitettu indeksoitavaksi."
+    },
+    {
+      "id": "184",
+      "content": "Älä oleta, että käyttäjä käyttää uusinta selainta tai vakaata verkkoyhteyttä."
+    },
+    {
+      "id": "185",
+      "content": "Käsittele offline-tila käyttöliittymän tilana, älä vain verkkovirheenä."
+    },
+    {
+      "id": "186",
+      "content": "Service workerin välimuististrategia on valittava datan tuoreuden ja saatavuuden mukaan."
+    },
+    {
+      "id": "187",
+      "content": "Älä tallenna arkaluonteista dataa selaimen pysyvään välimuistiin ilman perusteltua tarvetta."
+    },
+    {
+      "id": "188",
+      "content": "PWA:n asennettavuus ei korvaa nopeaa ja saavutettavaa verkkosivua."
+    },
+    {
+      "id": "189",
+      "content": "Tekstin tulee toimia myös zoomattuna ja käyttäjän kasvattamalla fonttikoolla."
+    },
+    {
+      "id": "190",
+      "content": "Testaa oikealla näppäimistöllä navigointi, ei vain hiiren klikkauksia."
+    },
+    {
+      "id": "191",
+      "content": "Anna jokaiselle sivulle kuvaava title ja hakutuloksissa hyödyllinen kuvaus."
+    },
+    {
+      "id": "192",
+      "content": "URL-osoitteen pitäisi kuvata sisältöä ja kestää tallentaminen kirjanmerkiksi."
+    },
+    {
+      "id": "193",
+      "content": "Käsittele reitin puuttuva resurssi oikeana 404-tilanteena, älä tyhjänä onnistumisena."
+    },
+    {
+      "id": "194",
+      "content": "Vältä rikkoutuneita linkkejä ja tarjoa sivulle hyödyllinen varareitti."
+    },
+    {
+      "id": "195",
+      "content": "Pidä päivämäärän ja numeron esitysmuoto paikallistettavana."
+    },
+    {
+      "id": "196",
+      "content": "Rakenna monikielisyys niin, ettei tekstin pituus riko asettelua."
+    },
+    {
+      "id": "197",
+      "content": "Tekstin käännös tarvitsee kontekstin, ei vain sanakirjavastinetta."
+    },
+    {
+      "id": "198",
+      "content": "Käytä Intl-rajapintaa päivämäärien, numeroiden ja valuuttojen paikalliseen muotoiluun."
+    },
+    {
+      "id": "199",
+      "content": "URL-parametrien koodaus kuuluu URL-rajapinnan tehtäväksi, älä liitä raakaa tekstiä osoitteeseen."
+    },
+    {
+      "id": "200",
+      "content": "Käsittele käyttäjän antamaa URL-osoitetta epäluotettavana ennen uudelleenohjausta."
+    },
+    {
+      "id": "201",
+      "content": "Älä rakenna turvallisuuspäätöksiä piilotetun frontend-kentän varaan."
+    },
+    {
+      "id": "202",
+      "content": "Sovelluksen tärkein käyttöpolku ansaitsee sekä nopeustestin että saavutettavuustestin."
+    },
+    {
+      "id": "203",
+      "content": "Yksinkertaisin koodi, joka täyttää vaatimuksen luotettavasti, on usein paras lähtökohta."
+    }
+  ],
+  "notes_html": [
+    {
+      "id": "1",
+      "content": "Aloita HTML-dokumentti doctype-määrityksellä, jotta selain käyttää standarditilaa."
+    },
+    {
+      "id": "2",
+      "content": "Pidä html-elementin sisällä head- ja body-osat selkeästi erillään."
+    },
+    {
+      "id": "3",
+      "content": "Lisää charset-määritys dokumentin alkuun, jotta teksti tulkitaan oikein."
+    },
+    {
+      "id": "4",
+      "content": "Määritä viewport-meta, jotta mobiiliselaimet asettavat sivun oikeaan leveyteen."
+    },
+    {
+      "id": "5",
+      "content": "Kirjoita sivulle kuvaava title, joka erottaa sen muista välilehdistä."
+    },
+    {
+      "id": "6",
+      "content": "Pidä title-elementin sisältö lyhyenä ja sivukohtaisena."
+    },
+    {
+      "id": "7",
+      "content": "Määritä sivun pääkieli html-elementin lang-attribuutilla."
+    },
+    {
+      "id": "8",
+      "content": "Käytä lang-attribuuttia myös tekstijaksoille, joiden kieli vaihtuu."
+    },
+    {
+      "id": "9",
+      "content": "HTML-attribuuttien arvot kannattaa lainata johdonmukaisesti."
+    },
+    {
+      "id": "10",
+      "content": "Sulje elementit HTML-standardin mukaisesti ja vältä virheellistä sisäkkäisyyttä."
+    },
+    {
+      "id": "11",
+      "content": "Käytä header-elementtiä sivun tai osion johdantosisällölle."
+    },
+    {
+      "id": "12",
+      "content": "Nav-elementti kuuluu tärkeille navigaatiolinkeille, ei jokaiselle linkkiryhmälle."
+    },
+    {
+      "id": "13",
+      "content": "Pääsisällölle on yleensä yksi main-elementti sivua kohden."
+    },
+    {
+      "id": "14",
+      "content": "Footer-elementti kokoaa sivun tai osion päätöstietoja."
+    },
+    {
+      "id": "15",
+      "content": "Section-elementillä pitäisi yleensä olla oma otsikko."
+    },
+    {
+      "id": "16",
+      "content": "Article sopii itsenäiselle sisällölle, joka voisi toimia myös erillään ympäristöstään."
+    },
+    {
+      "id": "17",
+      "content": "Aside merkitsee pääsisältöä täydentävää, sivuun liittyvää sisältöä."
+    },
+    {
+      "id": "18",
+      "content": "Div on neutraali säiliö; älä käytä sitä semanttisen elementin sijasta ilman syytä."
+    },
+    {
+      "id": "19",
+      "content": "Span on tekstin sisäinen neutraali säiliö, ei otsikon korvike."
+    },
+    {
+      "id": "20",
+      "content": "Valitse elementti sen merkityksen perusteella ja lisää ulkoasu CSS:llä."
+    },
+    {
+      "id": "21",
+      "content": "Jokaisella sivulla tulee olla ymmärrettävä pääotsikko."
+    },
+    {
+      "id": "22",
+      "content": "Otsikkotason rakenne auttaa lukijaa hahmottamaan sisällön hierarkian."
+    },
+    {
+      "id": "23",
+      "content": "Älä valitse h1-h6-elementtiä vain halutun fonttikoon vuoksi."
+    },
+    {
+      "id": "24",
+      "content": "P-elementti sopii tekstikappaleelle; älä käytä sitä tyhjän välin tekemiseen."
+    },
+    {
+      "id": "25",
+      "content": "Käytä br-elementtiä vain silloin, kun rivinvaihto kuuluu sisällön merkitykseen."
+    },
+    {
+      "id": "26",
+      "content": "Listan kohdat kuuluvat li-elementteihin ul- tai ol-elementin sisällä."
+    },
+    {
+      "id": "27",
+      "content": "Valitse järjestämätön lista, kun kohtien järjestyksellä ei ole merkitystä."
+    },
+    {
+      "id": "28",
+      "content": "Käytä järjestettyä listaa, kun vaiheiden tai kohtien järjestys on olennainen."
+    },
+    {
+      "id": "29",
+      "content": "Kuvaile linkin tarkoitus sen tekstissä, älä jätä näkyviin pelkkää 'klikkaa tästä'."
+    },
+    {
+      "id": "30",
+      "content": "Linkitä otsikkoon vain, jos otsikko todella toimii navigointilinkkinä."
+    },
+    {
+      "id": "31",
+      "content": "Käytä target=_blank-linkissä rel=noopener-suojausta, kun uusi välilehti avataan."
+    },
+    {
+      "id": "32",
+      "content": "Linkin avaaminen uuteen välilehteen kannattaa kertoa käyttäjälle."
+    },
+    {
+      "id": "33",
+      "content": "Käytä download-attribuuttia, kun linkin tarkoitus on ladata tiedosto."
+    },
+    {
+      "id": "34",
+      "content": "Sähköposti- ja puhelinlinkit voi tehdä mailto- ja tel-skeemoilla."
+    },
+    {
+      "id": "35",
+      "content": "Ankkurilinkki tarvitsee yksilöllisen id-arvon kohde-elementissä."
+    },
+    {
+      "id": "36",
+      "content": "ID-arvo on dokumentissa yksilöllinen; luokkia voi käyttää usealla elementillä."
+    },
+    {
+      "id": "37",
+      "content": "Kuvaelementin alt-teksti kuvaa kuvan sisältöä tai tarkoitusta kyseisessä yhteydessä."
+    },
+    {
+      "id": "38",
+      "content": "Tyhjä alt-arvo merkitsee kuvan koristeelliseksi silloin, kun se ei lisää sisältöä."
+    },
+    {
+      "id": "39",
+      "content": "Älä toista kuvatekstiä tarpeettomasti kuvan alt-tekstissä."
+    },
+    {
+      "id": "40",
+      "content": "Käytä figure- ja figcaption-elementtejä kuvan ja sen kuvatekstin ryhmittelyyn."
+    },
+    {
+      "id": "41",
+      "content": "Kuvan width- ja height-attribuutit auttavat selainta varaamaan tilan etukäteen."
+    },
+    {
+      "id": "42",
+      "content": "Picture-elementti mahdollistaa eri kuvalähteet eri tilanteisiin."
+    },
+    {
+      "id": "43",
+      "content": "Source-elementin type-attribuutti auttaa selainta valitsemaan tuetun kuvatyypin."
+    },
+    {
+      "id": "44",
+      "content": "Määritä img-elementille loading=lazy vain kuville, jotka eivät ole heti näkyvissä."
+    },
+    {
+      "id": "45",
+      "content": "Tärkeän yläosan kuvan laiska lataus voi viivästyttää ensivaikutelman syntymistä."
+    },
+    {
+      "id": "46",
+      "content": "Videoelementin poster-kuva näyttää esikatselun ennen videon käynnistymistä."
+    },
+    {
+      "id": "47",
+      "content": "Tarjoa videoelementin tekstitykset track-elementillä."
+    },
+    {
+      "id": "48",
+      "content": "Älä käynnistä ääntä automaattisesti käyttäjän pyytämättä."
+    },
+    {
+      "id": "49",
+      "content": "Audio- ja videoelementit tarvitsevat näkyvät ohjaimet, jos käyttäjän pitää hallita toistoa."
+    },
+    {
+      "id": "50",
+      "content": "Tarjoa pitkälle ääni- tai videosisällölle tekstimuotoinen vaihtoehto."
+    },
+    {
+      "id": "51",
+      "content": "Liitä label-elementti lomakekenttään for- ja id-attribuuteilla."
+    },
+    {
+      "id": "52",
+      "content": "Label-elementin sisään sijoitettu kenttä yhdistyy siihen ilman for-attribuuttia."
+    },
+    {
+      "id": "53",
+      "content": "Placeholder on esimerkki tai vihje, ei kentän pysyvä nimi."
+    },
+    {
+      "id": "54",
+      "content": "Kokoa toisiinsa liittyvät kentät fieldset-elementtiin ja nimeä ryhmä legend-elementillä."
+    },
+    {
+      "id": "55",
+      "content": "Valitse input-elementin type syötteen tarkoituksen mukaan."
+    },
+    {
+      "id": "56",
+      "content": "Automaattinen selaimen validointi voi auttaa, mutta palvelimen validointi on silti välttämätön."
+    },
+    {
+      "id": "57",
+      "content": "Required-attribuutti kertoo pakollisuudesta sekä selaimelle että käyttäjälle."
+    },
+    {
+      "id": "58",
+      "content": "Minlength- ja maxlength-attribuutit ilmaisevat tekstikentän pituusrajat."
+    },
+    {
+      "id": "59",
+      "content": "Autocomplete-attribuutti auttaa selainta täyttämään tutut käyttäjätiedot oikein."
+    },
+    {
+      "id": "60",
+      "content": "Anna samankaltaisille radiopainikkeille sama name-arvo, jotta ne muodostavat ryhmän."
+    },
+    {
+      "id": "61",
+      "content": "Checkbox sopii itsenäiseen kyllä-ei-valintaan, radio vaihtoehdon valintaan ryhmästä."
+    },
+    {
+      "id": "62",
+      "content": "Button-elementin type kannattaa määrittää, jotta lomakepainike ei lähetä lomaketta vahingossa."
+    },
+    {
+      "id": "63",
+      "content": "Submit-painike lähettää lomakkeen; reset-painike tyhjentää käyttäjän muutokset."
+    },
+    {
+      "id": "64",
+      "content": "Nimeä lomakekentät name-attribuutilla, jotta niiden arvot voidaan lähettää."
+    },
+    {
+      "id": "65",
+      "content": "Valitse lomakkeen method ja action sen mukaan, minne ja miten data käsitellään."
+    },
+    {
+      "id": "66",
+      "content": "GET-lomake sopii hakuihin, joiden parametrit voivat näkyä URL-osoitteessa."
+    },
+    {
+      "id": "67",
+      "content": "Käytä multipart/form-data-enkoodausta tiedostojen lähettämiseen lomakkeella."
+    },
+    {
+      "id": "68",
+      "content": "Kerro virheellinen kenttä myös tekstinä ja yhdistä virhe kenttään ohjelmallisesti."
+    },
+    {
+      "id": "69",
+      "content": "Readonly-kenttä pysyy lähetettävässä datassa, disabled-kenttä yleensä ei."
+    },
+    {
+      "id": "70",
+      "content": "Textarea sopii moniriviseen tekstiin paremmin kuin tavallinen text-input."
+    },
+    {
+      "id": "71",
+      "content": "Table-elementti on tarkoitettu taulukkomuotoiselle tiedolle."
+    },
+    {
+      "id": "72",
+      "content": "Nimeä taulukon otsikkosolut th-elementillä ja määritä niiden scope tarvittaessa."
+    },
+    {
+      "id": "73",
+      "content": "Käytä caption-elementtiä, kun taulukko tarvitsee otsikon tai selityksen."
+    },
+    {
+      "id": "74",
+      "content": "Jaa pitkä taulukko thead-, tbody- ja tfoot-osiin rakenteen selkeyttämiseksi."
+    },
+    {
+      "id": "75",
+      "content": "Älä käytä taulukkoelementtejä visuaalisen sivuasettelun tekemiseen."
+    },
+    {
+      "id": "76",
+      "content": "Käytä data-attribuutteja koneelliseen lisätietoon, kun niille ei ole omaa semanttista attribuuttia."
+    },
+    {
+      "id": "77",
+      "content": "Aria-attribuutti ei korvaa sopivaa natiivia HTML-elementtiä."
+    },
+    {
+      "id": "78",
+      "content": "ARIA-rooli muuttaa saavutettavuuspuun tulkintaa, ei elementin oletustoimintaa."
+    },
+    {
+      "id": "79",
+      "content": "aria-label sopii nimeämiseen, kun näkyvää tekstilabelia ei voi käyttää."
+    },
+    {
+      "id": "80",
+      "content": "aria-labelledby yhdistää elementin näkyvään nimeävään tekstiin."
+    },
+    {
+      "id": "81",
+      "content": "aria-describedby liittää ohjeen tai lisäkuvauksen ohjattavaan elementtiin."
+    },
+    {
+      "id": "82",
+      "content": "aria-hidden=true piilottaa sisällön apuvälineiltä; älä käytä sitä näkyvään tärkeään sisältöön."
+    },
+    {
+      "id": "83",
+      "content": "Piilotetun elementin sisältöä ei pidä jättää näppäimistöllä tavoitettavaksi vahingossa."
+    },
+    {
+      "id": "84",
+      "content": "Natiivin dialog-elementin showModal-toiminto tarjoaa selaimen hallitseman modaalin perustan."
+    },
+    {
+      "id": "85",
+      "content": "Details- ja summary-elementit tarjoavat toimivan avattavan sisältöalueen ilman JavaScriptiä."
+    },
+    {
+      "id": "86",
+      "content": "Progress-elementti kuvaa tehtävän edistymistä, meter mitta-arvoa rajatulla asteikolla."
+    },
+    {
+      "id": "87",
+      "content": "Käytä time-elementtiä päivämäärälle tai ajalle ja datetime-attribuuttia koneelliseen arvoon."
+    },
+    {
+      "id": "88",
+      "content": "Abbr-elementin title voi selittää lyhenteen, mutta tärkeä selitys kannattaa näyttää tekstissä."
+    },
+    {
+      "id": "89",
+      "content": "Käytä code-elementtiä koodikatkelmalle ja pre-elementtiä säilytettäville rivinvaihdoille."
+    },
+    {
+      "id": "90",
+      "content": "Käytä blockquote-elementtiä pidemmälle lainaukselle ja cite-attribuuttia lähdeosoitteelle."
+    },
+    {
+      "id": "91",
+      "content": "Meta description tiivistää sivun sisällön hakutuloksia ja jakamista varten."
+    },
+    {
+      "id": "92",
+      "content": "Canonical-linkki ilmaisee hakukoneelle sivun ensisijaisen URL-osoitteen."
+    },
+    {
+      "id": "93",
+      "content": "Open Graph -metatiedot ohjaavat sivun esikatselun otsikkoa, kuvaa ja kuvausta jaettaessa."
+    },
+    {
+      "id": "94",
+      "content": "Lisää favicon-linkki, jotta sivu tunnistuu selaimen välilehdessä ja kirjanmerkeissä."
+    },
+    {
+      "id": "95",
+      "content": "Script defer lataa skriptin rinnakkain ja suorittaa sen HTML-jäsennyksen jälkeen."
+    },
+    {
+      "id": "96",
+      "content": "Module-skriptit ovat oletusarvoisesti lykättyjä, joten defer ei ole niille tarpeen."
+    },
+    {
+      "id": "97",
+      "content": "Älä käytä async-attribuuttia skripteihin, joiden suoritusjärjestyksellä on merkitystä."
+    },
+    {
+      "id": "98",
+      "content": "Preconnect on hyödyllinen vain alkuperille, joihin sivu todennäköisesti ottaa yhteyden."
+    },
+    {
+      "id": "99",
+      "content": "Varmista HTML:n validointi, sillä selaimen virhepalautuminen voi peittää rakenteelliset ongelmat."
+    },
+    {
+      "id": "100",
+      "content": "Kun HTML on selkeä ja validi, CSS:n ja JavaScriptin on helpompi täydentää sitä."
+    }
+  ],
+  "notes_css": [
+    {
+      "id": "1",
+      "content": "Erota sisältörakenne HTML:ään ja ulkoasun säännöt CSS:ään."
+    },
+    {
+      "id": "2",
+      "content": "Aloita tyylit selaimen oletuksista ja muuta vain sitä, mikä tarvitsee muutosta."
+    },
+    {
+      "id": "3",
+      "content": "Käytä luokkanimiä kuvaamaan komponentin roolia, älä sen hetkistä väriä."
+    },
+    {
+      "id": "4",
+      "content": "Pidä valitsimet riittävän yksinkertaisina, jotta sääntöjä on helppo yliajaa."
+    },
+    {
+      "id": "5",
+      "content": "Matalampi spesifisyys helpottaa tyylien hallintaa pitkällä aikavälillä."
+    },
+    {
+      "id": "6",
+      "content": "Tunne kaskadin järjestys: alkuperä, tärkeys, spesifisyys ja lähdejärjestys vaikuttavat."
+    },
+    {
+      "id": "7",
+      "content": "Vältä !important-arvoa tavallisena keinona ratkaista spesifisyysongelmia."
+    },
+    {
+      "id": "8",
+      "content": "CSS-mukautetut ominaisuudet kokoavat toistuvat arvot nimetyiksi suunnittelutokeneiksi."
+    },
+    {
+      "id": "9",
+      "content": "Määritä värit, välit ja typografiset arvot muuttujiksi, kun niiden pitää pysyä yhtenäisinä."
+    },
+    {
+      "id": "10",
+      "content": "Nimeä CSS-muuttuja käyttötarkoituksen, ei pelkän nykyisen arvon mukaan."
+    },
+    {
+      "id": "11",
+      "content": "Box-sizing: border-box tekee elementin ilmoitetuista mitoista helpommin ennustettavia."
+    },
+    {
+      "id": "12",
+      "content": "Margin luo tilaa laatikoiden väliin; padding lisää tilaa laatikon sisään."
+    },
+    {
+      "id": "13",
+      "content": "Margin collapse voi yhdistää pystysuuntaisia marginaaleja, joten tarkista asettelu selaimessa."
+    },
+    {
+      "id": "14",
+      "content": "Käytä gap-arvoa Flexboxissa ja Gridissä sisäisten välien määrittämiseen."
+    },
+    {
+      "id": "15",
+      "content": "Flexbox ratkaisee tehokkaasti yhden ulottuvuuden rivien tai sarakkeiden asettelun."
+    },
+    {
+      "id": "16",
+      "content": "CSS Grid sopii kahden ulottuvuuden rivejä ja sarakkeita yhdistävään asetteluun."
+    },
+    {
+      "id": "17",
+      "content": "Käytä grid-template-columns: repeat(auto-fit, minmax(...)) joustaviin ruudukoihin."
+    },
+    {
+      "id": "18",
+      "content": "Minmax auttaa asettamaan ruudukon raidoille sekä vähimmäis- että enimmäisrajan."
+    },
+    {
+      "id": "19",
+      "content": "Flex itemin min-width: 0 sallii sisällön kutistua oman minimileveytensä alle."
+    },
+    {
+      "id": "20",
+      "content": "Käytä align-items- ja justify-content-ominaisuuksia sen sijaan, että työntäisit elementtejä satunnaisilla marginaaleilla."
+    },
+    {
+      "id": "21",
+      "content": "Responsive design alkaa sisällön tarpeista, ei suosituimpien laitteiden pikselileveyksistä."
+    },
+    {
+      "id": "22",
+      "content": "Aseta media query -rajat silloin, kun sisältö tai asettelu alkaa hajota."
+    },
+    {
+      "id": "23",
+      "content": "Mobile-first-tyylit laajentavat yksinkertaista lähtöasettelua suuremmille näkymille."
+    },
+    {
+      "id": "24",
+      "content": "Käytä max-width-arvoa rajoittamaan tekstipalstan luettavaa leveyttä."
+    },
+    {
+      "id": "25",
+      "content": "Leveysraja ja automaattiset sivumarginaalit keskittävät sisältöalueen ilman kiinteää leveyttä."
+    },
+    {
+      "id": "26",
+      "content": "Suhteelliset yksiköt auttavat käyttöliittymää joustamaan tekstin ja näkymän koon mukana."
+    },
+    {
+      "id": "27",
+      "content": "Rem-yksikkö sitoo mitan juurielementin fonttikokoon."
+    },
+    {
+      "id": "28",
+      "content": "Em-yksikkö suhteutuu tavallisesti elementin omaan fonttikokoon."
+    },
+    {
+      "id": "29",
+      "content": "Viewport-yksiköt ovat hyödyllisiä, mutta mobiiliselaimen työkalupalkit vaikuttavat korkeusyksiköihin."
+    },
+    {
+      "id": "30",
+      "content": "Käytä min-height-arvoa kiinteän height-arvon sijasta sisällön kasvua sallivissa paneeleissa."
+    },
+    {
+      "id": "31",
+      "content": "Älä anna tekstin leikkautua kiinteän korkeuden laatikkoon eri fonttikoolla."
+    },
+    {
+      "id": "32",
+      "content": "Aspect-ratio säilyttää elementin mittasuhteet ilman korkeuslaskentaa JavaScriptissä."
+    },
+    {
+      "id": "33",
+      "content": "Object-fit auttaa sovittamaan kuvan määrättyyn laatikkoon venyttämättä sitä."
+    },
+    {
+      "id": "34",
+      "content": "Käytä object-position-arvoa, kun rajattavan kuvan tärkeä kohta ei ole keskellä."
+    },
+    {
+      "id": "35",
+      "content": "Overflow-arvon muuttaminen voi luoda uuden vieritys- tai pinoamiskontekstin."
+    },
+    {
+      "id": "36",
+      "content": "Varmista, ettei overflow piilota fokuskehää, valikkoa tai sisältöön liittyvää virhettä."
+    },
+    {
+      "id": "37",
+      "content": "Position: absolute tarvitsee tarkoituksellisen sijoituskontekstin."
+    },
+    {
+      "id": "38",
+      "content": "Käytä position: fixed vain elementeille, joiden kuuluu pysyä näkymään sidottuna."
+    },
+    {
+      "id": "39",
+      "content": "Sticky-elementti tarvitsee tilaa, jossa kiinnittymisellä on merkitystä, ja sopivan offset-arvon."
+    },
+    {
+      "id": "40",
+      "content": "Z-index vaikuttaa vain elementtien pinoutumiseen niiden omissa pinoamiskonteksteissa."
+    },
+    {
+      "id": "41",
+      "content": "Transform, opacity ja tietyt muut ominaisuudet voivat muodostaa uuden pinoamiskontekstin."
+    },
+    {
+      "id": "42",
+      "content": "Luo z-index-tasoille sovittu asteikko sen sijaan, että kasvatat arvoja summittain."
+    },
+    {
+      "id": "43",
+      "content": "Fonttien line-height on tärkeä osa luettavuutta ja tekstin pystysuuntaista rytmiä."
+    },
+    {
+      "id": "44",
+      "content": "Rajoita tekstipalstan leveyttä, jotta pitkät rivit eivät rasita lukemista."
+    },
+    {
+      "id": "45",
+      "content": "Tekstin kontrasti taustaan nähden on tarkistettava myös pienessä fontissa."
+    },
+    {
+      "id": "46",
+      "content": "Älä välitä tilaa sanojen väliin kirjainvälistyksellä tai välilyönneillä."
+    },
+    {
+      "id": "47",
+      "content": "Käytä font-weight-arvoa, jota valittu fonttitiedosto todella tukee."
+    },
+    {
+      "id": "48",
+      "content": "Määritä font-familyyn järkevä varafonttien ketju."
+    },
+    {
+      "id": "49",
+      "content": "Font-display: swap voi näyttää varafontin, kun verkkofontti latautuu."
+    },
+    {
+      "id": "50",
+      "content": "Määritä font-face-säännöissä oikea font-weight, jotta selain valitsee leikkauksen oikein."
+    },
+    {
+      "id": "51",
+      "content": "Käytä :focus-visible-valitsinta selkeään näppäimistökäyttäjän fokusmerkintään."
+    },
+    {
+      "id": "52",
+      "content": "Hover-tila ei korvaa fokustyyliä, koska kosketusnäytössä hoveria ei välttämättä ole."
+    },
+    {
+      "id": "53",
+      "content": "Älä poista outline-tyyliä ennen kuin saavutettava korvaava fokusilmaisin on määritetty."
+    },
+    {
+      "id": "54",
+      "content": "Disabled-, hover- ja focus-tilat tarvitsevat toisistaan erottuvat visuaaliset esitykset."
+    },
+    {
+      "id": "55",
+      "content": "Väri ei saa olla ainoa tapa erottaa virheellinen tila tai toiminto."
+    },
+    {
+      "id": "56",
+      "content": "Kunnioita prefers-reduced-motion-asetusta ja tarjoa vähäliikkeinen vaihtoehto."
+    },
+    {
+      "id": "57",
+      "content": "Animaatio parantaa palautetta, kun se tukee toimintaa eikä viivytä sitä."
+    },
+    {
+      "id": "58",
+      "content": "Transition-property kannattaa rajata ominaisuuksiin, joiden muutosta todella animoidaan."
+    },
+    {
+      "id": "59",
+      "content": "Transform ja opacity sopivat usein sulaviin animaatioihin layout-ominaisuuksia paremmin."
+    },
+    {
+      "id": "60",
+      "content": "Vältä animaatioita, jotka käynnistyvät automaattisesti ja jatkuvat ilman käyttäjän hyötyä."
+    },
+    {
+      "id": "61",
+      "content": "Pseudo-elementti sopii koristeeseen, joka ei kuulu dokumentin sisältöön."
+    },
+    {
+      "id": "62",
+      "content": "Älä sijoita olennaista tekstiä pelkästään ::before- tai ::after-sisällöksi."
+    },
+    {
+      "id": "63",
+      "content": "Käytä ::marker-valitsinta listamerkin tyylin muuttamiseen."
+    },
+    {
+      "id": "64",
+      "content": "CSS-kaskadikerrokset voivat tehdä tyylien prioriteetista ennakoitavamman suurissa projekteissa."
+    },
+    {
+      "id": "65",
+      "content": "@supports mahdollistaa tyylin ehdollistamisen selaimen ominaisuustuen perusteella."
+    },
+    {
+      "id": "66",
+      "content": "Tarjoa toimiva perusasettelu ennen uudemman CSS-ominaisuuden lisäparannusta."
+    },
+    {
+      "id": "67",
+      "content": "@media print -säännöt voivat poistaa käyttöliittymän koristeet tulostuksesta."
+    },
+    {
+      "id": "68",
+      "content": "Tulostustyyliä kannattaa testata pitkällä sisällöllä ja sivunvaihdoilla."
+    },
+    {
+      "id": "69",
+      "content": "Container query mukauttaa komponenttia sen oman säiliön koon, ei vain näkymän mukaan."
+    },
+    {
+      "id": "70",
+      "content": "Aseta container-type vain niille säiliöille, joiden sisältö todella tarvitsee konttikyselyjä."
+    },
+    {
+      "id": "71",
+      "content": "Loogiset ominaisuudet kuten margin-inline toimivat eri kirjoitussuunnissa fyysisesti nimettyjä ominaisuuksia paremmin."
+    },
+    {
+      "id": "72",
+      "content": "Suosi inline- ja block-suuntaisia mittoja, kun sivun kirjoitussuunta voi vaihtua."
+    },
+    {
+      "id": "73",
+      "content": "Käytä scroll-margin-top-arvoa, kun ankkurikohde jää kiinteän otsakkeen alle."
+    },
+    {
+      "id": "74",
+      "content": "Scroll-behavior: smooth voi helpottaa siirtymiä, mutta huomioi käyttäjän liikeasetukset."
+    },
+    {
+      "id": "75",
+      "content": "Scroll-snap toimii parhaiten, kun vierityskohteet ovat ennakoitavia ja hallittavia."
+    },
+    {
+      "id": "76",
+      "content": "Käytä list-stylea vain, kun listamerkin poistaminen ei heikennä sisällön ymmärrettävyyttä."
+    },
+    {
+      "id": "77",
+      "content": "Taustakuva on koristeellinen; tärkeälle kuvasisällölle käytä HTML:n img-elementtiä."
+    },
+    {
+      "id": "78",
+      "content": "Varmista, että taustakuvan päällä oleva teksti säilyttää riittävän kontrastin kaikissa rajauksissa."
+    },
+    {
+      "id": "79",
+      "content": "Usean taustan CSS-säännössä ensimmäinen tausta piirretään lähimpänä käyttäjää."
+    },
+    {
+      "id": "80",
+      "content": "Gradientti on taustakuvaominaisuus, joten sen kerrostus noudattaa taustojen järjestystä."
+    },
+    {
+      "id": "81",
+      "content": "Käytä border- ja outline-ominaisuuksia eri tarkoituksiin: outline ei vie asettelutilaa."
+    },
+    {
+      "id": "82",
+      "content": "Box-shadow voi selventää kerrostusta, mutta älä nojaa siihen ainoana rajauksen merkkinä."
+    },
+    {
+      "id": "83",
+      "content": "Border-radius ei muuta laatikon mittoja, mutta suuret säteet voivat vaikuttaa sisällön visuaaliseen tilaan."
+    },
+    {
+      "id": "84",
+      "content": "Opacity vaikuttaa koko elementtiin ja sen lapsiin; taustaväriin alpha on eri ratkaisu."
+    },
+    {
+      "id": "85",
+      "content": "Visibility: hidden säilyttää tilan, display: none poistaa sen asettelusta."
+    },
+    {
+      "id": "86",
+      "content": "Opacity: 0 ei yksin poista elementtiä näppäimistön tai ruudunlukijan käytöstä."
+    },
+    {
+      "id": "87",
+      "content": "Cursor-tyyli ei tee elementistä toimivaa painiketta tai linkkiä."
+    },
+    {
+      "id": "88",
+      "content": "Pointer-events: none voi estää kohdistuksen hiirellä, mutta ei korvaa saavutettavaa tilanhallintaa."
+    },
+    {
+      "id": "89",
+      "content": "Käytä user-select: none vain käyttöliittymän lyhyisiin ohjeteksteihin, älä tavalliseen sisältöön."
+    },
+    {
+      "id": "90",
+      "content": "Testaa asettelu pitkällä sanalla, suurennetulla tekstillä ja kapealla näkymällä."
+    },
+    {
+      "id": "91",
+      "content": "Tarkista myös tyhjä, virheellinen ja poikkeuksellisen pitkä sisältö CSS-asettelussa."
+    },
+    {
+      "id": "92",
+      "content": "Älä aseta width: 100% -arvoa ennen kuin tiedät, miten padding ja border vaikuttavat kokonaisleveyteen."
+    },
+    {
+      "id": "93",
+      "content": "Min(), max() ja clamp() auttavat määrittämään joustavia mittoja ilman lukuisia media queryjä."
+    },
+    {
+      "id": "94",
+      "content": "Clamp-arvon keskiosa voi joustaa, mutta minimi ja maksimi pitävät sen hallinnassa."
+    },
+    {
+      "id": "95",
+      "content": "Käytä aspect-ratioa ja joustavia rajoja kiinteiden pikselimittojen sijasta, kun sisältö mukautuu."
+    },
+    {
+      "id": "96",
+      "content": "Lue Computed Styles -näkymästä, mikä sääntö lopulta asettaa ominaisuuden arvon."
+    },
+    {
+      "id": "97",
+      "content": "Poista käyttämättömät säännöt, jotta CSS:n vaikutusalue pysyy ymmärrettävänä."
+    },
+    {
+      "id": "98",
+      "content": "Ryhmittele tyylit komponentin ja tarkoituksen mukaan, jotta niitä on helppo löytää."
+    },
+    {
+      "id": "99",
+      "content": "Käytä automaattista muotoilua ja linttausta johdonmukaisen CSS-tyylin ylläpitoon."
+    },
+    {
+      "id": "100",
+      "content": "CSS on parhaimmillaan, kun ulkoasu mukautuu sisältöön ilman käyttäjän sisällön rajoittamista."
+    }
+  ],
+  "notes_js": [
+    {
+      "id": "1",
+      "content": "Käytä const-määrittelyä oletuksena ja let-määrittelyä, kun sidonnan pitää vaihtua."
+    },
+    {
+      "id": "2",
+      "content": "Vältä var-määrittelyä uudessa koodissa, sillä sen näkyvyysalue poikkeaa lohkosidonnaisista muuttujista."
+    },
+    {
+      "id": "3",
+      "content": "Muuttumaton const-sidonta ei tee sen osoittamasta oliosta muuttumatonta."
+    },
+    {
+      "id": "4",
+      "content": "Anna muuttujille nimet, jotka kertovat niiden merkityksen eivätkä vain tyyppiä."
+    },
+    {
+      "id": "5",
+      "content": "Pidä muuttujan näkyvyysalue mahdollisimman pienenä."
+    },
+    {
+      "id": "6",
+      "content": "Alusta muuttuja siinä kohdassa, jossa sen tarkoitus tulee selväksi."
+    },
+    {
+      "id": "7",
+      "content": "Strict mode auttaa löytämään virheitä, jotka muuten jäisivät hiljaisiksi."
+    },
+    {
+      "id": "8",
+      "content": "Käytä ===- ja !==-vertailuja, jotta tyypin automaattinen muunnos ei yllätä."
+    },
+    {
+      "id": "9",
+      "content": "Tarkista NaN Number.isNaN-funktiolla, älä yhtäsuuruusvertailulla."
+    },
+    {
+      "id": "10",
+      "content": "Number.isFinite kertoo luotettavasti, onko arvo äärellinen numero ilman tyyppimuunnosta."
+    },
+    {
+      "id": "11",
+      "content": "Käsittele null ja undefined tarkoituksella; ne kuvaavat eri tilanteita."
+    },
+    {
+      "id": "12",
+      "content": "Käytä nullish coalescing -operaattoria, kun vain null ja undefined tarkoittavat puuttuvaa arvoa."
+    },
+    {
+      "id": "13",
+      "content": "Nullish assignment säilyttää arvon 0, false ja tyhjän merkkijonon."
+    },
+    {
+      "id": "14",
+      "content": "Totuusarvomuunnos tekee ehtojen käyttäytymisen näkyväksi."
+    },
+    {
+      "id": "15",
+      "content": "Vältä ehtoja, joissa tyhjä taulukko tai olio tulkitaan virheellisesti epätodeksi."
+    },
+    {
+      "id": "16",
+      "content": "Käytä Number- tai parseInt-muunnosta eksplisiittisesti, kun käsittelet numerotekstiä."
+    },
+    {
+      "id": "17",
+      "content": "Määritä parseInt-kutsulle kantaluku, kun muunnat lukua eri järjestelmästä."
+    },
+    {
+      "id": "18",
+      "content": "Älä laske rahaa binääriliukuluvuilla ilman tarkkuusvirheen huomioimista."
+    },
+    {
+      "id": "19",
+      "content": "BigInt sopii kokonaislukuihin, jotka ylittävät Number-tyypin turvallisen alueen."
+    },
+    {
+      "id": "20",
+      "content": "Älä sekoita BigInt- ja Number-arvoja laskutoimituksessa ilman eksplisiittistä muunnosta."
+    },
+    {
+      "id": "21",
+      "content": "Pienikin funktio on helpompi testata, kun sillä on yksi selkeä tehtävä."
+    },
+    {
+      "id": "22",
+      "content": "Pidä funktion parametrit ja paluuarvo ennustettavina."
+    },
+    {
+      "id": "23",
+      "content": "Käytä varhaista palautusta, kun se tekee poikkeustapauksista selkeämpiä."
+    },
+    {
+      "id": "24",
+      "content": "Puhtaalla funktiolla sama syöte tuottaa saman tuloksen ilman piilovaikutuksia."
+    },
+    {
+      "id": "25",
+      "content": "Erota laskenta sivuvaikutuksista, kun se yksinkertaistaa testejä ja päättelyä."
+    },
+    {
+      "id": "26",
+      "content": "Muista, että funktio voi palauttaa myös Promisen tai iteraattorin."
+    },
+    {
+      "id": "27",
+      "content": "Nimetty funktio näkyy usein hyödyllisempänä kutsupinossa kuin nimetön funktio."
+    },
+    {
+      "id": "28",
+      "content": "Nuolifunktio perii this-arvon ympäröivästä näkyvyysalueesta."
+    },
+    {
+      "id": "29",
+      "content": "Tavallisen metodin this riippuu kutsutavasta, ei siitä missä funktio määriteltiin."
+    },
+    {
+      "id": "30",
+      "content": "Käytä bind-, call- tai apply-menetelmää vain, kun this-sidonnan muuttaminen on tarpeen."
+    },
+    {
+      "id": "31",
+      "content": "Oletusparametri aktivoituu vain undefined-arvolle, ei null-arvolle."
+    },
+    {
+      "id": "32",
+      "content": "Lepoparametri kokoaa ylimääräiset argumentit taulukoksi."
+    },
+    {
+      "id": "33",
+      "content": "Destrukturointi voi tehdä olion tai taulukon käsittelystä luettavampaa."
+    },
+    {
+      "id": "34",
+      "content": "Syvä destrukturointi kannattaa pitää maltillisena, jotta lähteen rakenne säilyy ymmärrettävänä."
+    },
+    {
+      "id": "35",
+      "content": "Spread-syntaksi kopioi taulukon tai olion vain pinnallisesti."
+    },
+    {
+      "id": "36",
+      "content": "Rakenna uusi olio sen sijaan, että muutat jaettua tilaa huomaamatta."
+    },
+    {
+      "id": "37",
+      "content": "Object.freeze estää vain pinnalliset muutokset, ellei sisäkkäisiä arvoja jäädytetä erikseen."
+    },
+    {
+      "id": "38",
+      "content": "Tarkista olion oma ominaisuus Object.hasOwn-menetelmällä."
+    },
+    {
+      "id": "39",
+      "content": "Map sopii dynaamiseen avain-arvo-kokoelmaan, jossa avaimina voi olla muitakin kuin merkkijonoja."
+    },
+    {
+      "id": "40",
+      "content": "Set takaa uniikit alkiot ja tarjoaa selkeän tavan poistaa duplikaatteja."
+    },
+    {
+      "id": "41",
+      "content": "Valitse taulukkometodi, jonka semantiikka vastaa tarkoitusta: map muuntaa, filter rajaa ja reduce kokoaa."
+    },
+    {
+      "id": "42",
+      "content": "Käytä find-menetelmää, kun tarvitset ensimmäisen ehdon täyttävän alkion."
+    },
+    {
+      "id": "43",
+      "content": "Every ja some ilmaisevat kokoelman ehtotarkistuksen ilman käsin kirjoitettua silmukkaa."
+    },
+    {
+      "id": "44",
+      "content": "Sort muuttaa alkuperäistä taulukkoa, joten kopioi se ensin, jos alkuperäisen pitää säilyä."
+    },
+    {
+      "id": "45",
+      "content": "Määritä vertailufunktio sort-metodille, kun järjestät numeroita tai rakenteisia arvoja."
+    },
+    {
+      "id": "46",
+      "content": "Käytä toistoon for...of-silmukkaa, kun tarvitset taulukon arvot järjestyksessä."
+    },
+    {
+      "id": "47",
+      "content": "for...in käy läpi lueteltavia avaimia, joten se ei ole tavallisen taulukon arvosilmukka."
+    },
+    {
+      "id": "48",
+      "content": "Tee reduce-kutsusta luettava nimeämällä aloitusarvo ja kokoamisen tarkoitus."
+    },
+    {
+      "id": "49",
+      "content": "String.includes on usein luettavampi kuin käsin kirjoitettu alimerkkijonon sijaintitarkistus."
+    },
+    {
+      "id": "50",
+      "content": "Template literal sopii interpolointiin ja moniriviseen merkkijonoon."
+    },
+    {
+      "id": "51",
+      "content": "Koodaa käyttäjän teksti HTML:ksi vain turvallisella, käyttökontekstin huomioivalla tavalla."
+    },
+    {
+      "id": "52",
+      "content": "Älä käytä eval-funktiota käyttäjän syötteen suorittamiseen."
+    },
+    {
+      "id": "53",
+      "content": "URL- ja URLSearchParams-rajapinnat käsittelevät osoitteita luotettavammin kuin merkkijonojen liittäminen."
+    },
+    {
+      "id": "54",
+      "content": "JSON.parse voi heittää virheen, joten käsittele virheellinen JSON hallitusti."
+    },
+    {
+      "id": "55",
+      "content": "JSON.stringify ei säilytä kaikkia JavaScriptin arvoja tai olioiden ominaisuuksia."
+    },
+    {
+      "id": "56",
+      "content": "Tarkista ulkoisen datan rakenne ajonaikaisesti ennen sen käyttämistä."
+    },
+    {
+      "id": "57",
+      "content": "TypeScriptin tyyppitarkistus ei validoi verkosta saatua dataa ajon aikana."
+    },
+    {
+      "id": "58",
+      "content": "Käytä unknown-tyyppiä any-tyypin sijasta, kun arvon muotoa ei vielä tunneta."
+    },
+    {
+      "id": "59",
+      "content": "Rajaa tuntematon arvo ennen sen ominaisuuksien lukemista."
+    },
+    {
+      "id": "60",
+      "content": "Symbol tuottaa uniikin ominaisuusavaimen, jota merkkijonoavaimet eivät vahingossa toista."
+    },
+    {
+      "id": "61",
+      "content": "Käsittele async-funktion tulosta Promisena, vaikka se palauttaisi tavallisen arvon."
+    },
+    {
+      "id": "62",
+      "content": "await toimii vain async-funktion sisällä tai moduulin ylimmän tason koodissa."
+    },
+    {
+      "id": "63",
+      "content": "Käytä rinnakkaisuutta riippumattomille asynkronisille tehtäville."
+    },
+    {
+      "id": "64",
+      "content": "Älä odota silmukassa jokaista pyyntöä peräkkäin, jos niiden tulokset eivät riipu toisistaan."
+    },
+    {
+      "id": "65",
+      "content": "Promise.all hylkää heti ensimmäiseen hylättyyn Promiseen, vaikka muut tehtävät jatkuisivat."
+    },
+    {
+      "id": "66",
+      "content": "Promise.allSettled sopii tilanteeseen, jossa jokaisen tehtävän lopputulos pitää käsitellä."
+    },
+    {
+      "id": "67",
+      "content": "Käsittele hylätty Promise joko await-kutsun try/catch-lohkossa tai .catch-ketjussa."
+    },
+    {
+      "id": "68",
+      "content": "Käytä AbortControlleria peruuttaaksesi tarpeettoman fetch-pyynnön."
+    },
+    {
+      "id": "69",
+      "content": "Fetch ei hylkää Promisea pelkän HTTP 404- tai 500-vastauksen vuoksi."
+    },
+    {
+      "id": "70",
+      "content": "Tarkista response.ok ennen kuin käsittelet fetch-vastauksen onnistuneena."
+    },
+    {
+      "id": "71",
+      "content": "Lue Response-runko vain kerran, sillä sen lukeminen kuluttaa virran."
+    },
+    {
+      "id": "72",
+      "content": "Aseta verkkopyynnölle aikakatkaisu tai muu keino hallita loputonta odotusta."
+    },
+    {
+      "id": "73",
+      "content": "Uudelleenyritys kannattaa rajoittaa ja viivästää, jotta hetkellinen virhe ei kuormita palvelua lisää."
+    },
+    {
+      "id": "74",
+      "content": "Käytä Promise-ketjuissa joko selkeää await-tyyliä tai ketjutusta johdonmukaisesti."
+    },
+    {
+      "id": "75",
+      "content": "Event loop käsittelee tehtävät vaiheittain; pitkä synkroninen työ estää käyttöliittymän päivittymisen."
+    },
+    {
+      "id": "76",
+      "content": "setTimeout asettaa aikaisimman ajoitushetken, ei tarkkaa suoritusaikaa."
+    },
+    {
+      "id": "77",
+      "content": "requestAnimationFrame sopii ennen seuraavaa selaimen ruutupäivitystä tehtäville visuaalisille muutoksille."
+    },
+    {
+      "id": "78",
+      "content": "Siirrä raskas laskenta Web Workeriin, jos se tukkii pääsäikeen."
+    },
+    {
+      "id": "79",
+      "content": "Käytä moduuleja riippuvuuksien näkyvään tuontiin ja koodin rajaamiseen."
+    },
+    {
+      "id": "80",
+      "content": "ES-moduulin import-polku on suhteessa tuovan tiedoston URL-osoitteeseen."
+    },
+    {
+      "id": "81",
+      "content": "Vältä moduulien keskinäisiä syklisiä riippuvuuksia, koska niiden alustusjärjestys voi yllättää."
+    },
+    {
+      "id": "82",
+      "content": "Vie moduulista pieni ja tarkoituksellinen API sisäisten toteutusten sijasta."
+    },
+    {
+      "id": "83",
+      "content": "Lazy loading voi pienentää alkulatausta, kun harvoin käytetty toiminto erotetaan omaksi moduulikseen."
+    },
+    {
+      "id": "84",
+      "content": "Käsittele DOM-elementtiä null-arvoisena, kun hakutulos ei ole taattu."
+    },
+    {
+      "id": "85",
+      "content": "Käytä textContent-ominaisuutta tavallisen tekstin näyttämiseen turvallisesti."
+    },
+    {
+      "id": "86",
+      "content": "Rakenna DOM-elementit rajapinnoilla sen sijaan, että upotat raakaa käyttäjän syötettä innerHTML-arvoon."
+    },
+    {
+      "id": "87",
+      "content": "Lisää ja poista tapahtumakuuntelija samalla funktioviitteellä."
+    },
+    {
+      "id": "88",
+      "content": "Tapahtumadelegointi voi vähentää kuuntelijoiden määrää toistuvissa lapsielementeissä."
+    },
+    {
+      "id": "89",
+      "content": "Tarkista event.target ja event.currentTarget, kun tapahtumakuuntelija on jaettu."
+    },
+    {
+      "id": "90",
+      "content": "Peruuta oletustoiminto vain, kun sovellus tarjoaa sille ymmärrettävän vaihtoehdon."
+    },
+    {
+      "id": "91",
+      "content": "Käytä localStoragea vain synkroniseen, pieneen ja ei-arkaluonteiseen selaindataan."
+    },
+    {
+      "id": "92",
+      "content": "Session storage ja local storage sisältävät merkkijonoja, joten muunna data eksplisiittisesti."
+    },
+    {
+      "id": "93",
+      "content": "Älä tallenna salasanoja tai muita salaisuuksia selaimen pysyvään tallennustilaan."
+    },
+    {
+      "id": "94",
+      "content": "Käytä Intl-rajapintaa päivämäärien, numeroiden ja valuuttojen paikalliseen esittämiseen."
+    },
+    {
+      "id": "95",
+      "content": "Päivämäärän näyttäminen ja aikaleiman tallentaminen ovat eri tehtäviä; huomioi aikavyöhyke."
+    },
+    {
+      "id": "96",
+      "content": "Testaa haarat, joissa data puuttuu, on virheellinen tai saapuu odottamattomassa järjestyksessä."
+    },
+    {
+      "id": "97",
+      "content": "Testi on arvokas, kun se tarkistaa havaittavan käyttäytymisen eikä sisäistä toteutustapaa."
+    },
+    {
+      "id": "98",
+      "content": "Pidä ajastimia ja tapahtumakuuntelijoita käyttävät testit eristettyinä ja siivoa resurssit."
+    },
+    {
+      "id": "99",
+      "content": "Mittaa suorituskyky todellisesta käyttötapauksesta ennen optimointia."
+    },
+    {
+      "id": "100",
+      "content": "Selkeä JavaScript tekee oikean toiminnan helpommaksi kuin nokkela mutta vaikeasti luettava koodi."
+    }
+  ]
+}
